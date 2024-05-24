@@ -1,0 +1,86 @@
+body{
+    background-color:var(--violet);
+    background-image: url('../images/bg-desktop.svg');
+    font-family: "Poppins", sans-serif;;    
+}
+
+/* Header */
+
+.header .logo img{
+    margin-top: 57px;
+    margin-left: 70px;
+    width: 215px;
+}
+
+/* Main */
+.container{
+    display: flex;
+    margin: 73px 73px 50px 73px;
+    gap: 50px;
+}
+
+.container .container-left{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+.container .container-left .titulo{
+    color: #fff;
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: capitalize;   
+    margin-bottom: 20px;  
+}
+
+.container .container-left p{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.container .container-left .btn-register{
+    color: var(--violet);
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #fff;
+    border-radius: 40px;
+    align-self: flex-start;
+    padding: 15px 40px;
+    transition: .3s;
+}
+
+.container .container-left .btn-register:hover{
+    background-color: var(--soft-magenta);
+    color: #fff;
+    box-shadow: 0 1px 15px #000;
+}
+
+
+/* Footer */
+
+.footer .social{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin: 20px;
+}
+
+.footer .social i{
+    padding: 10px;
+}
+.footer .social .fab.fa-facebook-f{
+    padding: 10px 16px;
+}
+
+.footer .social a{
+    color: #fff;
+    font-size:18px;
+    border-radius: 50px;
+    border: 2px solid #fff ;
+    transition: 0.3s;
+}
+
+.footer .social a:hover{
+    color:var(--soft-magenta);
+    border: 2px solid var(--soft-magenta);
+}
